@@ -77,11 +77,11 @@ if __name__ == "__main__":
 
     get_stream()
 
-    # get_stream(6, 'https://wdr-edge-10b6-fra-dtag-cdn.cast.addradio.de/wdr/1live/diggi/mp3/128/stream.mp3', 'test', 3
-    #            )
+    get_stream(6, 'https://wdr-edge-10b6-fra-dtag-cdn.cast.addradio.de/wdr/1live/diggi/mp3/128/stream.mp3', 'test', 3
+                )
 
 
-    #insert_record('myRadio', 390, url1)
+    insert_record('myRadio', 390, url1)
 
     print("hello")
     '''records = fetch_all_records()
